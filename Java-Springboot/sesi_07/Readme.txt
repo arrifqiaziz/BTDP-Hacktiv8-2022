@@ -6,6 +6,12 @@ untuk menyelesaikan suatu masalah yang disusun secara sistematis.
 
 Sort Algoritm
 Sorting (mengurutkan) adalah proses mengurutkan data baik secara accending ataupun descending
+
+Contoh Sort Algoritm:
+ - Selection Sort
+ - Bubble Sort
+ - Exchange Sort
+
 Selection Sort Algoritm, adalah salah satu algoritma sorting yang paling umum
  - Jumlah Iterasi untuk Selection Sort ialah berjumlah sebesar Jumlah Data – 1
  - Proses pertukaran Data dimulai dari Data Pertama sampai Data Terakhir dengan cara membandingkan 
