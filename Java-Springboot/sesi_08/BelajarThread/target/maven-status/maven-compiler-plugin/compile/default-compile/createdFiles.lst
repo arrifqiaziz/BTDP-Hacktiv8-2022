@@ -1,3 +1,5 @@
 com\learning\thread\ThreadHello.class
-com\learning\thread\ThreadWorld.class
+com\learning\thread\ThreadNumber.class
 com\learning\thread\App.class
+com\learning\thread\NumberGenerator.class
+com\learning\thread\ThreadWorld.class

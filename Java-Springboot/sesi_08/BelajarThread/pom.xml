@@ -9,7 +9,7 @@
 
   <name>BelajarThread</name>
   <url>http://maven.apache.org</url>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.hamcrest</groupId>
@@ -48,4 +48,5 @@
         </plugin>
     </plugins>
   </build>
+  
 </project>
