@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employees>
+    <employee id="111">
+        <firstName>Arrifqi</firstName>
+        <lastname>Aziz</lastname>
+        <location>Bogor</location>
+    </employee>
+
+    <employee id="222">
+        <firstName>Udin</firstName>
+        <lastname>Sirojudin</lastname>
+        <location>Samarinda</location>
+    </employee>
+
+    <employee id="333">
+        <firstName>Lord</firstName>
+        <lastname>Luhut</lastname>
+        <location>Jakarta</location>
+    </employee>
+</employees>

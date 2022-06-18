@@ -15,7 +15,7 @@ public class ThreadNumber extends Thread {
 
     private void callGenerator() {
         synchronized (ng) {
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 2; i++) {
                 System.out.println(getName() + " " + ng.randomNumber());
             }
         }
