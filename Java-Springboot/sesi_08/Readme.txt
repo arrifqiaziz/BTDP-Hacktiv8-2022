@@ -11,7 +11,7 @@ yaitu mengimplement interface Runnable dan meng-extends class Thread.
 *CREATE PROJECT*
 Membuat project dengan cara buka terminal di direktori yang diinginkan
 lalu ketik
-mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=DemoThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.learning.thread -DartifactId=BelajarThread -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 archetype	: 
 groupId	: 
@@ -50,6 +50,14 @@ Copas kode berikut ke pom.xml
       </plugin>
   </plugins>
 </build>
+
+<dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+
 
 tambahkan import juint test
 import org.junit.Test;
