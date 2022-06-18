@@ -3,17 +3,11 @@ package com.learning.thread;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class ThreadHello implements Runnable {
-
-    private final String name;
-
-    public ThreadHello(String name) {
-        this.name = name;
-    }
+public class ThreadWorld extends Thread {
 
     @Override
     public void run() {
-        System.out.println(name + " : Hello");
+        System.out.println(getName() + " : World");
         try {
             Thread.sleep(250);
         } catch (InterruptedException ex) {
@@ -21,5 +15,4 @@ public class ThreadHello implements Runnable {
             Logger.getLogger(ThreadHello.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
 }

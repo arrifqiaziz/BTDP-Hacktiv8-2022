@@ -3,7 +3,7 @@ package com.learning.thread;
 import org.junit.Test;
 
 public class ThreadHelloTest {
-    public ThreadHelloTest(){
+    public ThreadHelloTest() {
 
     }
 
