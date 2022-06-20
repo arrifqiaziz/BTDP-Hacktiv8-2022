@@ -16,7 +16,7 @@ public class ParseKnownXMLStructure {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
 
-        Document document = builder.parse(new File("resources/employees.xml"));
+        Document document = builder.parse(new File("main/resources/employees.xml"));
 
         document.getDocumentElement().normalize();
 
