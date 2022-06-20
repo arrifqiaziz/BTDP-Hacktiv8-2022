@@ -44,3 +44,9 @@ folder Alexa
         </plugin>
     </plugins>
   </build>
+
+mvn exec:java -Dexec.mainClass="com.learning.sax.JavaReadXMLSaxEx"
+
+mvn exec:java -Dexec.mainClass="com.learning.sax.ParseKnownXMLStructure"
+
+mvn exec:java -Dexec.mainClass="com.ParsingXmlSax.module.Mail"

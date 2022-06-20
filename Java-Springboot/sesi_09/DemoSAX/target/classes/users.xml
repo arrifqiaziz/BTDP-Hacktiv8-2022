@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+    <user id="1">
+        <id>24</id>
+        <name>Arrifqi Aziz</name>
+        <gender>Laki-laki</gender>
+        <role>Backend Developer</role>
+    </user>
+
+    <user id="2">
+        <id>35</id>
+        <name>Aziz</name>
+        <gender>Laki-laki</gender>
+        <role>Frontend Developer</role>
+    </user>
+
+    <user id="3">
+        <id>15</id>
+        <name>Ardhiansyah</name>
+        <gender>Laki-laki</gender>
+        <role>Full-Stack Developer</role>
+    </user>
+
+    <user id="4">
+        <id>23</id>
+        <name>Anisa</name>
+        <gender>Perempuan</gender>
+        <role>QA Engineer</role>
+    </user>
+</users>
