@@ -1,0 +1,61 @@
+insert into tb_pegawai values
+	(1,'sanji','male','1992-10-14','1',32234,'chef'),
+	(2,'zoro','male','1992-04-13','1',23749,'cleaning service'),
+	(3,'chopper','male','1989-05-09','1',89764,'doctor'),
+	(4,'luffy','male','1990-03-05','2',29537,'ceo'),
+	(5,'nami','female','1989-01-02','1',165646,'dqwdqw')
+
+id_pegawai	int(11) Auto Increment	
+nama_pegawai	varchar(50)	
+alamat	text	
+jenis_kelamin	enum('Laki-laki','Perempuan')	
+tgl_lahir	date	
+status	enum('Aktif','Tidak Aktif')	
+no_tlp	varchar(13)	
+jabatan
+
+insert into tb_pegawai values
+	(1,'sanji','Jakarta','1','1992-10-14','1',1234567891234,'chef'),
+	(2,'zoro','1','1992-04-13','1',1234567895234,'cleaning service'),
+	(3,'chopper','1','1989-05-09','1',123454891234,'doctor'),
+	(4,'luffy','1','1990-03-05','2',1234567861234,'ceo'),
+	(5,'nami','2','1989-01-02','1',1234567899234,'co-founder')
+
+
+id nama_pegawai jabatan gaji
+
+select tp.id_pegawai as "ID", tp.nama_pegawai, tp.jabatan, tg.gaji, tg.tgl_gaji from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai
+order by tp.id_pegawai ASC
+
+create view data_gaji AS
+select tp.id_pegawai, tp.nama_pegawai, tp.jabatan, tg.gaji, tg.tgl_gaji from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai
+order by tp.id_pegawai ASC
+
+
+
+select tb_pegawai.id_pegawai, tb_pegawai.nama_pegawai, tp.jabatan, tg.gaji, tg.tgl_gaji from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai
+order by tp.id_pegawai ASC
+
+
+
+data pegawai Arif 
+1. terdapata nama, jabatan, gaji (tanggal 1)
+2. terdapata nama, jabatan, gaji (tanggal 2)
+data pegawai Rifqi
+1. terdapat nama, jabatan, gaji  (tanggal 1)
+2. terdapata nama, jabatan, gaji (tanggal 2)
+
+select tp.nama_pegawai, tp.jabatan, "total_gaji" from tb_pegawai tp
+join tb_gaji tg on tg.id_pegawai=tp.id_pegawai where tp.nama_pegawai = 'sanji'
+union all
+select tp.nama_pegawai, "", tg.gaji from tb_gaji tg  
+join tb_pegawai tp on tg.id_pegawai=tp.id_pegawai where tg.id_pegawai= '1'
+group by tp.nama_pegawai
+
+select tr.id_transaksi,tpl.nama_pembeli,tm.nama_menu, tp.nama_pegawai, tr.tgl_transaksi from tb_transaksi tr
+join tb_pembeli tpl on tr.id_pembeli=tpl.id_pembeli
+join tb_menu tm on tr.id_menu=tm.id_menu
+join tb_pegawai tp on tr.id_pegawai=tp.id_pegawai
