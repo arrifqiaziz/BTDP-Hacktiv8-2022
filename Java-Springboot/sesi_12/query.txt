@@ -1,0 +1,109 @@
+-- Adminer 4.8.1 MySQL 5.5.5-10.4.24-MariaDB dump
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+DROP VIEW IF EXISTS `data_musik`;
+CREATE TABLE `data_musik` (`id_musisi` int(11), `nama_musisi` varchar(50), `nama_album` varchar(50), `judul_lagu` varchar(50), `nama_instrument` varchar(50));
+
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `tb_album`;
+CREATE TABLE `tb_album` (
+  `id_album` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_album` varchar(50) NOT NULL,
+  `tgl_copyright` date NOT NULL,
+  `format_album` enum('CD','MC') NOT NULL,
+  `id_musisi` int(11) NOT NULL,
+  PRIMARY KEY (`id_album`),
+  KEY `id_musisi` (`id_musisi`),
+  CONSTRAINT `tb_album_ibfk_1` FOREIGN KEY (`id_musisi`) REFERENCES `tb_musisi` (`id_musisi`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+TRUNCATE `tb_album`;
+INSERT INTO `tb_album` (`id_album`, `nama_album`, `tgl_copyright`, `format_album`, `id_musisi`) VALUES
+(1,	'perjalanan',	'2022-02-02',	'MC',	1),
+(2,	'perjuangan',	'2021-01-01',	'CD',	2),
+(3,	'into the bone',	'1999-09-19',	'CD',	3),
+(4,	'senja',	'2021-05-12',	'CD',	4),
+(5,	'ulala',	'2020-02-20',	'CD',	5),
+(6,	'lampu',	'2019-02-14',	'CD',	6),
+(7,	'kita',	'2021-10-12',	'MC',	7),
+(8,	'bersama',	'1999-07-14',	'CD',	8),
+(9,	'kemana',	'2021-02-21',	'CD',	9),
+(10,	'bursa pasar',	'2020-02-16',	'MC',	10);
+
+DROP TABLE IF EXISTS `tb_instrument`;
+CREATE TABLE `tb_instrument` (
+  `id_instrument` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_instrument` varchar(50) NOT NULL,
+  `kunci_musik` enum('Minor','Mayor') NOT NULL,
+  PRIMARY KEY (`id_instrument`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+TRUNCATE `tb_instrument`;
+INSERT INTO `tb_instrument` (`id_instrument`, `nama_instrument`, `kunci_musik`) VALUES
+(1,	'Piano',	'Minor'),
+(2,	'Gitar',	'Mayor'),
+(3,	'Flute',	'Minor'),
+(4,	'Bass',	'Minor'),
+(5,	'Ukulele',	'Mayor');
+
+DROP TABLE IF EXISTS `tb_lagu`;
+CREATE TABLE `tb_lagu` (
+  `id_lagu` int(11) NOT NULL AUTO_INCREMENT,
+  `judul_lagu` varchar(50) NOT NULL,
+  `id_album` int(11) NOT NULL,
+  PRIMARY KEY (`id_lagu`),
+  KEY `id_album` (`id_album`),
+  CONSTRAINT `tb_lagu_ibfk_2` FOREIGN KEY (`id_album`) REFERENCES `tb_album` (`id_album`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+TRUNCATE `tb_lagu`;
+INSERT INTO `tb_lagu` (`id_lagu`, `judul_lagu`, `id_album`) VALUES
+(1,	'cinta',	1),
+(2,	'bujangan',	2),
+(3,	'putus',	3),
+(4,	'tulang',	4),
+(5,	'meja',	5),
+(6,	'buah',	6),
+(7,	'galon',	7),
+(8,	'awan',	8),
+(9,	'pulang',	9),
+(10,	'kampung',	10);
+
+DROP TABLE IF EXISTS `tb_musisi`;
+CREATE TABLE `tb_musisi` (
+  `id_musisi` int(11) NOT NULL AUTO_INCREMENT,
+  `ssn_musisi` int(11) NOT NULL,
+  `nama_musisi` varchar(50) NOT NULL,
+  `alamat_musisi` text NOT NULL,
+  `no_telp_musisi` varchar(13) NOT NULL,
+  `id_instrument` int(11) NOT NULL,
+  PRIMARY KEY (`id_musisi`),
+  UNIQUE KEY `ssn_musisi` (`ssn_musisi`),
+  KEY `id_instrument` (`id_instrument`),
+  CONSTRAINT `tb_musisi_ibfk_1` FOREIGN KEY (`id_instrument`) REFERENCES `tb_instrument` (`id_instrument`),
+  CONSTRAINT `tb_musisi_ibfk_2` FOREIGN KEY (`id_instrument`) REFERENCES `tb_instrument` (`id_instrument`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+TRUNCATE `tb_musisi`;
+INSERT INTO `tb_musisi` (`id_musisi`, `ssn_musisi`, `nama_musisi`, `alamat_musisi`, `no_telp_musisi`, `id_instrument`) VALUES
+(1,	1,	'Tulus',	'Lebak Bulus',	'082111234568',	1),
+(2,	2,	'Isyana',	'Bandung',	'082145612312',	1),
+(3,	3,	'Raisa',	'Lampung',	'085745688125',	2),
+(4,	4,	'Bunga Citra Lestari',	'Semarang',	'085664811544',	4),
+(5,	5,	'Opik',	'Balikpapan',	'083845687115',	5),
+(6,	6,	'Kahitna',	'Bali',	'085548485252',	3),
+(7,	7,	'GAC',	'Medan',	'085744759632',	2),
+(8,	8,	'Lyodra',	'Ambon',	'056961254884',	4),
+(9,	9,	'Soul King Brook',	'Bekasi',	'088808880888',	5),
+(10,	10,	'Fiersa Besari',	'Cimahi',	'085115457896',	2);
+
+DROP TABLE IF EXISTS `data_musik`;
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `data_musik` AS select `tm`.`id_musisi` AS `id_musisi`,`tm`.`nama_musisi` AS `nama_musisi`,`ta`.`nama_album` AS `nama_album`,`tl`.`judul_lagu` AS `judul_lagu`,`ti`.`nama_instrument` AS `nama_instrument` from (((`tb_musisi` `tm` join `tb_album` `ta` on(`tm`.`id_musisi` = `ta`.`id_musisi`)) join `tb_lagu` `tl` on(`ta`.`id_album` = `tl`.`id_album`)) join `tb_instrument` `ti` on(`ti`.`id_instrument` = `tm`.`id_instrument`)) order by `tm`.`id_musisi`;
+
+-- 2022-06-21 04:59:36
