@@ -76,3 +76,79 @@ bsonType : tipe data
 required : data apa saja yang pada saat di tambahkan datanya itu harus diisi
 properties : peraturan – peraturan yang akan dibuat untuk validasi data tersebut
 items : untuk data bertipe array
+
+
+*QUERY*
+use barang_nama-masing-masing
+
+db.createCollection("barang",{
+validator : {
+$jsonSchema : {
+|
+}
+}
+}
+
+$jsonSchema : {
+bsonType : “object”,
+Required : [“namabarang”, “hargabarang”, “jenisbarang”, “description”]
+}
+
+namaBarang : {
+bsonType : “string”,
+Description : “Nama Barang harus berupa karakter dan tidak boleh kosong!”
+},
+hargaBarang : {
+bsonType : “number”,
+Description : “Harga Barang harus berupa number dan tidak boleh kosong!”
+},
+jenisBarang : {
+bsonType : “objectId”,
+Description : “Jenis Barang harus berupa objectID dan tidak boleh kosong!”
+},
+description : {
+bsonType : “array”,
+Description : “Deskripsi harus berupa karakter dan tidak boleh kosong!”
+},
+
+description : {
+bsonType : “array”,
+Description : “Deskripsi harus berupa karakter dan tidak boleh kosong!”,
+Items : {
+Merk : {
+bsonType : “string”,
+description : “Ukuran harus berupa karakter dan tidak boleh kosong!”
+}
+ukuran : {
+bsonType : “string”,
+description : “Ukuran harus berupa karakter dan tidak boleh kosong!”
+}
+stok : {
+bsonType :”number”,
+description : “Stok harus berupa angka dan tidak boleh kosong!”
+}
+}
+},
+
+description : {
+bsonType : “array”,
+description : “Deskripsi harus berupa karakter dan tidak boleh kosong!”,
+items : {
+bsonType : “object”,
+required : [“merk”,”ukuran”,”stok”],
+Properties : [
+Merk : {
+bsonType : “string”,
+description : “Ukuran harus berupa karakter dan tidak boleh kosong!”
+},
+)
+
+Keterangan :
+createCollection : untuk membuat tabel
+validator : untuk membuat validasi pada json
+$jsonSchema : untuk masuk ke dalam fungsi json
+bsonType : tipe data
+required : data apa saja yang pada saat di tambahkan datanya itu harus diisi
+properties : peraturan – peraturan yang akan dibuat untuk validasi data tersebut
+items : untuk data bertipe array
+Terakhir coba di jalankan.
