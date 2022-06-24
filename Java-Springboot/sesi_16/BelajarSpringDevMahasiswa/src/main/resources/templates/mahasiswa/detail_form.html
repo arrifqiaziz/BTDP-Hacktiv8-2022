@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Mahasiswa</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h4 class="mb-3 mt-3">Detail Mahasiswa</h4>
+    <table class="table table-hover">
+        <tbody>
+        <tr>
+            <th scope="row">NIM</th>
+            <td th:text="${mahasiswa.nim}">&nbsp;</td>
+        </tr>
+        <tr>
+            <th scope="row">Nama</th>
+            <td th:text="${mahasiswa.nama}">&nbsp;</td>
+        </tr>
+        <tr>
+            <th scope="row">IPK</th>
+            <td th:text="${mahasiswa.ipk}">&nbsp;</td>
+        </tr>
+        <tr>
+            <th scope="row">Jurusan</th>
+            <td th:text="${mahasiswa.jurusan}">&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+    <a th:href="@{/index}" class="btn btn-primary">Kembali</a>
+</div>
+</body>
+</html>
