@@ -1,4 +1,4 @@
-Sesi 17
+Sesi 17 - RestAPI
 
 https://codeshare.io/bfispring_sesi17
 cek codeshare
@@ -34,6 +34,14 @@ verb) yang umum digunakan yaitu:
 ● DELETE, tentu untuk menghapus resource (data).
 ● PUT, untuk merubah resource (data).
 
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
 
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)
 
 

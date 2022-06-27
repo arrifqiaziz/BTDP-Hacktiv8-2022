@@ -1,3 +1,6 @@
+Sesi 4
+Array & Structure Data Tree
+
 Array
 Array adalah sebuah variabel yang bisa menyimpan banyak data dalam 1 variabel dan menggunakan indeks
 untuk mengakses data.
@@ -34,3 +37,14 @@ Penulusuran Data (Transversal) pada BST
             5
         3       9
       2   4   7   11
+
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)s

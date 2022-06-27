@@ -1,3 +1,6 @@
+Sesi 6
+CLI - Git, & Github
+
 Version Control System (VCS)
 Sistem yang mencatat semua perubahan yang dilakukan pada file sehingga semua riwayatnya akan terekam
 dan bisa dilihat kembali nanti. Ketika ada perubahan,
@@ -43,5 +46,16 @@ Cara Upload Git
 - git status
 - git commit -m ‘your message’
 - git remote add origin ‘your_url_name’
-- git push -u origin master
+- git pull origin main
+- git push -u origin main
 
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

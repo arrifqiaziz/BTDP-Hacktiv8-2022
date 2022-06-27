@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Need more Alexa data?  Find our APIs here: https://aws.amazon.com/marketplace/seller-profile?id=4a9dbf38-88b1-4e87-a459-271154a77d2e  -->
+
+<ALEXA VER="0.9" URL="bcafinance.co.id/" HOME="0" AID="=" IDN="bcafinance.co.id/">
+	<SD>
+		<POPULARITY URL="bcafinance.co.id/" TEXT="497082" SOURCE="panel"/>
+		<REACH RANK="455094"/>
+		<RANK DELTA="-375006"/>
+		<COUNTRY CODE="ID" NAME="Indonesia" RANK="10590"/>
+	</SD>
+</ALEXA>

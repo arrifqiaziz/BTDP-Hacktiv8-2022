@@ -1,0 +1,11 @@
+Unit testing adalah pengujian dasar yang menguji setiap unit atau component 
+baik itu dari segi functional atau behavior.
+
+
+JUNIT & MOCKITO
+---------------
+
+Unit Testing Service
+1. service layer dimana layer 
+   - logic dari aplikasi ini dan bisa berkomunikasi dengan repository atau database
+

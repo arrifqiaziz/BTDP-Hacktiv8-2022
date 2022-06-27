@@ -1,0 +1,50 @@
+XML Parsing (extensible markup language)
+- membaca xml
+- menyimpan dan mengantarkan data
+- Teknik : SAX (simple api xml)
+           DOM (document object model)
+- StringBuilder : mutable string.membuat, modifikasi, replace string, dll
+				  biasanya digunakan ketika perlu banyak modifikasi pada string
+
+------------------------------------------------------------------
+
+                  konfigurasi/membuat
+SAXParserFactory --------------------> SAXParser 
+										   |
+										   |
+										   |  wraps
+										   |
+										   V
+							     Interface for reading 
+							        an XML document 
+									using callbacks
+
+------------------------------------------------------------------
+
+SAXParserFactory
+- digunakan untuk konfigurasi/obtain SAX based parser 
+  to parse XML documents.
+  
+Logger
+- Logging message
+- Level -> standard logging level
+- SEVERE -> message yg menandakan serious failure
+- getMessage -> detail error message
+
+------------------------------------------------------------------
+
+<users>
+	<user id="1">
+		<id>26</id>
+		<name>Bryant</name>
+		<gender>Male</gender>
+		<role>Java Developer</role>
+	</user>
+</users>
+	
+DefaultHandler
+- import org.xml.sax.helpers.DefaultHandler;
+- sax event handler
+- startElement -> element pertama yang ditemukan <user>
+- character -> character data dalam element <id> <name> <gender> <role>
+- endElement -> element terakhir yang ditemukan </user>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+	<employee id="9">
+		<firstname>Doctor</firstname>
+		<lastname>Chopper</lastname>
+		<location>Wanokuni</location>
+	</employee>
+	<employee id="99">
+		<firstname>Nefertari</firstname>
+		<lastname>Vivi</lastname>
+		<location>Mariejois</location>
+	</employee>
+	<employee id="999">
+		<firstname>Skeleton</firstname>
+		<lastname>Brook</lastname>
+		<location>Wanokuni</location>
+	</employee>
+</employees>

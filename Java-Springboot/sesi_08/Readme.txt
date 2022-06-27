@@ -1,4 +1,4 @@
-Multithreading - Synchronized Java
+Sesi 8 - Multithreading | Synchronized
 
 Multithreading adalah Konsep untuk dapat menjalankan task atau tugas lebih dari satu secara paralel, 
 	sehingga dengan konsep ini task yang banyak akan cepat selesai karena tidak saling tunggu 
@@ -83,3 +83,13 @@ Install New Software (di Eclipse)
 https://download.eclipse.org/tm4e/snapshots/
 
 
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

@@ -1,5 +1,8 @@
-OPERATOR JAVA
+Sesi 2
+Java Operator & Conditional Logic
 
+
+Operator Java
 Di dalam java ada beberapa tipe Operator yang wajib dipahami , yaitu :
 ● Operator Aritmatika
 ● Operator Penugasan
@@ -42,3 +45,13 @@ CONDITIONAL LOGIC
 IF ELSE
 TERNARY
 SWITCH CASE
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

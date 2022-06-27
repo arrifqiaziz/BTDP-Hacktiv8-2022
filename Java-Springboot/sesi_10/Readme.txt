@@ -1,5 +1,5 @@
-Sesi 10
-DATABASE
+Sesi 10 - Database - SQL (MySQL and PostgreSQL) | Data Definition Language (DDL) and Data Manipulation Language (DML)
+
 
 Database -> Basis Data
 Komponen utama penyusun suatu app yang terdiri dari sekumpulan data atau informasi yang tersimpan secara sistematis
@@ -52,3 +52,13 @@ insert into tb_mahasiswa(id, nim, email, nama_mahasiswa, jenkel) values(6, "123"
 /lebih simpel
 insert into tb_mahasiswa values("123","arif@gmail.com","Arif","Laki-Laki");
 
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

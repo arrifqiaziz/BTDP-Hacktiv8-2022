@@ -1,4 +1,5 @@
-Java Languages
+Sesi 1
+Introduction to Java Languages
 
 Bahasa Java adalah Bahasa pemograman high-level, dibuat oleh James Gosling yang
 kemudian di akuisisi oleh Sun Microsystems tahun 1995. Banyak dijalankan pada variety
@@ -28,3 +29,12 @@ Class		-> class dideklarasikan sebagai nama program
 Method Main	-> method utama yang akan dijalankan pertama kali
 Input Output-> memasukan dan mengeluarkan data
 
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

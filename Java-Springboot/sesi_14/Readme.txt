@@ -1,6 +1,4 @@
-Sesi 14
-
-Servlet & Springboot
+Sesi 14 - Servlet | Indoduction Spring Boot
 
 MVC
 Model - View - Controller
@@ -61,3 +59,12 @@ spring.jpa.hibernate.ddl-auto=update
 cek database, username dan password nya juga
 
 
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

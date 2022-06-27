@@ -1,4 +1,4 @@
-Sesi 13
+Sesi 13 - ORM Hibernate
 
 ORM
 ORM atau dikenal juga dengan Object Relationship Mapping adalah Jembatan antara OOP dengan Database Relational.
@@ -20,3 +20,13 @@ library object-relational mapping untuk bahasa pemrograman Java, yang menyediaka
 Hibernate ini menyediakan framework untuk Java untuk koneksi ke database relasional seperti MySQL, SQL
 Server, Oracle, DB2, dan lain-lain.
 
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

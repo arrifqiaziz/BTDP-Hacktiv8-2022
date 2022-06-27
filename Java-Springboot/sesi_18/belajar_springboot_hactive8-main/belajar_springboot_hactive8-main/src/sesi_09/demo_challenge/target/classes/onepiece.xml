@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="1">
+		<firstname>God</firstname>
+		<lastname>Usop</lastname>
+	</user>
+	<user id="2">
+		<firstname>Roronoa</firstname>
+		<lastname>Zoro</lastname>
+	</user>
+	<user id="3">
+		<firstname>Vinsmoke</firstname>
+		<lastname>Sanji</lastname>
+	</user>
+	<user id="9">
+		<firstname>Nico</firstname>
+		<lastname>Robin</lastname>
+	</user>
+</users>

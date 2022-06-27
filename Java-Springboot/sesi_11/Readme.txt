@@ -1,4 +1,4 @@
-Sesi 11
+Sesi 11 - Database - NoSQL (MongoDB)
 
 NoSQL - Mongo DB
 
@@ -152,3 +152,14 @@ required : data apa saja yang pada saat di tambahkan datanya itu harus diisi
 properties : peraturan – peraturan yang akan dibuat untuk validasi data tersebut
 items : untuk data bertipe array
 Terakhir coba di jalankan.
+
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

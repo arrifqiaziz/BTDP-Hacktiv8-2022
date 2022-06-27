@@ -1,4 +1,7 @@
+Sesi 5
 Object Oriented Programming (OOP)
+
+OOP adalah
     * Object pada Java adalah entitas yang memiliki keadaan dan perilaku dikenal sebagai objek di dunia nyata misalnya kursi, sepeda, spidol, pulpen, meja, mobil, dan lain sebagainya.
     * Dapat berbentuk fisik atau logis (berwujud dan tidak berwujud).
 
@@ -32,3 +35,14 @@ Secara sederhana polymorhpism di Java dibagi ke dalam 3 bentuk :
 ● Class itu sendiri
 ● Class lain
 ● Interface
+
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

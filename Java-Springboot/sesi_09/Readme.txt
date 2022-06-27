@@ -1,4 +1,4 @@
-*Parsing XML Data - SAX & DOM*
+Sesi 9 - Parsing XML Data SAX and DOM
 
 *XML*
   - eXtensible Markup Language digunakan untuk menyimpan dan mengantarkan data
@@ -53,3 +53,15 @@ mvn exec:java -Dexec.mainClass="com.ParsingXmlSax.module.Mail"
 
 mvn exec:java -q
 
+
+
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

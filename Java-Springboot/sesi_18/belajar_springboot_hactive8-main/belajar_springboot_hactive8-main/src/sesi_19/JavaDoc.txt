@@ -1,0 +1,22 @@
+/**
+     * @param o element whose presence in this list is to be tested
+     * @return <tt>true</tt> if this list contains the specified element
+     * @throws ClassCastException if the type of the specified element
+     *         is incompatible with this list
+     * @throws NullPointerException if the specified element is null and this
+     *         list does not permit null elements
+     * @see <a href="Collection.html#optional-restrictions">optional</a>
+     * @since 1.0
+     */
+    public int successfulyAttacked(int incomingDamage);
+
+
+--------------------------------------------------------
+
+
+@param -> info parameter yang diterima
+@return -> deskripsi return value dari method
+@see -> referensi
+@since -> versi class
+@throws -> error yang dihasilkan method
+@deprecated -> penjelasan mengapa kode ini tidak digunakan lagi

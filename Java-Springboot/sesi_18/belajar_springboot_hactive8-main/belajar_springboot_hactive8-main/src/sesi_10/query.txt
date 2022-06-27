@@ -1,0 +1,128 @@
+insert into company values (1, 'chandra', 17, 'jakarta', 2000);
+update company set name='jack', age=25, salary=5000 where id=1;
+
+
+
+-----------------------------------
+
+
+
+insert into pegawai values
+	(DEFAULT, 'sanji','bengkulu','male','1992-10-14','aktif',32234,'chef'),
+	(DEFAULT, 'zoro','bengkulu','male','1992-04-13','aktif',23749,'cleaning service'),
+	(DEFAULT, 'chopper','bengkulu','male','1989-05-09','aktif',8974,'doctor'),
+	(DEFAULT, 'luffy','bengkulu','male','1990-03-05','aktif',29537,'ceo'),
+	(DEFAULT, 'nami','bengkulu','female','1989-01-02','aktif',12341,'branch manager'),
+	(DEFAULT, 'usop','bengkulu','male','1989-01-09','aktif',64528,'assistant manager'),
+	(DEFAULT, 'brook','bengkulu','male','1820-12-05','aktif',72348,'sales manager'),
+	(DEFAULT, 'franky','bengkulu','male','1999-09-13','aktif',12343,'technical architect'),
+	(DEFAULT, 'jinbe','bengkulu','male','1899-09-09','aktif',88773,'marketing manager'),
+	(DEFAULT, 'robin','bengkulu','female','2001-10-07','aktif',2342,'hrd manager');
+
+update pegawai set jabatan='cfo' where nama_pegawai='nami';
+
+-----------------------------------
+
+insert into menu values
+	(111,'es cendol','beverage',3000),
+	(112,'es buah','beverage',15000),
+	(113,'fish ball soup','western food',50000),
+	(114,'indomie','indonesian food',50000),
+	(115,'sirloin steak','western food',50000),
+	(116,'sushi','japannese food',50000),
+	(117,'nasi goreng','indonesian food',50000),
+	(118,'ketoprak','indonesian food',50000),
+	(119,'gado gado','indonesian food',50000),
+	(120,'mie ayam','indonesian food',50000);
+
+-----------------------------------
+
+insert into pembeli values
+	(DEFAULT,'wiwit','bengkulu','female','1983-03-01','aktif',567890,'apoteker'),
+	(DEFAULT,'ayu','malang','female','1982-06-10','aktif',123424,'dosen'),
+	(DEFAULT,'nengsih','solo','female','1981-05-01','aktif',46784,'asisten'),
+	(DEFAULT,'mamat','austria','male','1980-03-12','aktif',47892,'analis'),
+	(DEFAULT,'cecep','bengkulu','male','1979-01-01','aktif',134245,'kontraktor'),
+	(DEFAULT,'adam','lombok','male','1978-02-02','aktif',769053,'analis'),
+	(DEFAULT,'vivi','bali','female','1999-02-09','aktif',56225,'programmer'),
+	(DEFAULT,'violet','palembang','female','1998-07-03','tidak aktif',57823,'perawat'),
+	(DEFAULT,'rebecca','papua','female','2001-08-10','tidak aktif',13456,'dokter'),
+	(DEFAULT,'kureha','bengkulu','female','1800-08-11','aktif',83456,'dokter');
+
+----------------------------------
+
+insert into gaji values
+	(2001, 1, 2000000, '2012-12-01'),
+	(2002, 2, 1800000, '2012-12-01'),
+	(2003, 3, 1500000, '2012-12-01'),
+	(2004, 4, 3500000, '2012-12-01'),
+	(2005, 5, 4000000, '2012-12-01'),
+	(2006, 6, 2500000, '2012-12-01'),
+	(2007, 7, 1500000, '2012-12-01'),
+	(2008, 8, 1000000, '2012-12-01'),
+	(2009, 9, 3500000, '2012-12-01'),
+	(2010, 10, 3500000, '2012-12-01');
+
+----------------------------------
+
+insert into transaksi values
+	(1001, 1, 111, 9, '2012-09-09'),
+	(1002, 2, 112, 9, '2012-11-08'),
+	(1003, 1, 111, 10, '2012-11-10'),
+	(1004, 1, 113, 10, '2012-11-28'),
+	(1005, 2, 113, 9, '2012-11-28'),
+	(1006, 4, 118, 9, '2012-11-29'),
+	(1007, 5, 117, 10, '2012-12-08'),
+	(1008, 5, 112, 9, '2012-12-08'),
+	(1009, 9, 113, 9, '2012-12-18'),
+	(1010, 8, 115, 9, '2012-12-18'),
+	(1011, 9, 118, 10, '2012-12-28'),
+	(1012, 6, 117, 10, '2012-12-29');
+
+-----------------------------------------
+
+-- * menampilkan semua kolom dalam tabel
+
+select * from pegawai;
+select * from menu;
+select * from pembeli;
+
+-----------------------------------------
+
+-- inner join
+
+CREATE VIEW gajiView AS
+select id_gaji, nama_pegawai, gaji, tgl_gaji
+from gaji as g
+inner join pegawai as p
+on g.id_pegawai = p.id_pegawai
+
+-----------------------------------------
+
+CREATE VIEW transaksiView AS
+select id_transaksi, nama_pembeli, nama_menu, nama_pegawai, tgl_transaksi
+from transaksi as t
+inner join pembeli as p
+on t.id_pembeli = p.id_pembeli
+inner join menu as m
+on t.id_menu = m.id_menu
+inner join pegawai as pe
+on t.id_pegawai = pe.id_pegawai
+order by nama_pembeli asc;
+
+-----------------------------------------
+
+CREATE VIEW pegawaiView AS
+select p.id_pegawai, nama_pegawai, jabatan, gaji
+from pegawai as p
+inner join gaji as g
+on p.id_pegawai = g.id_pegawai
+
+-----------------------------------------
+
+delete from transaksi
+where id_transaksi in(1001, 1002, 1003);
+
+-----------------------------------------
+
+https://stackoverflow.com/questions/35676149/adding-a-column-as-a-foreign-key-gives-error-column-referenced-in-foreign-key-co?answertab=scoredesc#tab-top
