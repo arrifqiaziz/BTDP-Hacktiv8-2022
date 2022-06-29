@@ -1,10 +1,12 @@
 Sesi 21 - Integration Firebase Cloud Messaging with Spring-boot and Secure Spring-boot App
 
-Integration Firebase Cloud Messaging with Spring-boot and Secure Spring-boot App
+Firebase Cloud Messaging 
+ -> Service yang disediakan oleh Firebase untuk mendapatkan push notification pada perangkat Android dan iOS atau bahkan front-end.
 
 Pertama buat project sederhana
 akan memakai Github, Heroku, dan Firebase
-https://codeshare.io/bfispring_sesi20
+
+
 
 ##### Signature
 Made with Heart, Hard Work, Smart Think and Whole Soul <3

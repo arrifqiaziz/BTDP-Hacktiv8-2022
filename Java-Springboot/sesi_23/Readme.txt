@@ -1,5 +1,8 @@
 Sesi 23 - Final Project
 
+https://codeshare.io/bfispring_sesi23
+https://codeshare.io/bfispring_sesi23-2
+
 Requirement
 1. Signup
 2. Login (JWT)
@@ -112,6 +115,43 @@ tripSchedule
 
 
 
+code		tujuan
+details	penjelasan tujuan
+email		email
+firstName	nama depan
+lastName	nama belakang
+mobileNumber	no hp
+name		nama panggilan
+password	password
+role		ROLE_ADMIN / ROLE_USER
+username	username (untuk login)
+
+username - password
+1. arrifqi - arrifqi
+
+
+cara running
+buka swagger
+post SignUp di User-Controller
+
+ke auth
+masukan pass dan username
+copy token
+
+buka authorize diatas kanan
+paste token
+Bearer isitoken
+
+setelah login
+coba semua fitur
+post agency dll
+
+
+
+
+
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Authorization;
 
 ##### Signature
 Made with Heart, Hard Work, Smart Think and Whole Soul <3
