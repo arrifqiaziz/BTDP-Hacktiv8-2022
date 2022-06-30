@@ -46,7 +46,7 @@ This repository is a documentation of every session in the BTDP-Batch 1 2022. Th
 [Session_09](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_09) - API Testing\
 [Session_10](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_10) - Mobile Testing\
 [Session_11](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_11) - Final Project 1\
-[Session_12](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_12) - Final Project 2\
+[Session_12](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_12) - Final Project 2
 
 ##### Signature
 Made with Heart, Hard Work, Smart Think and Whole Soul <3
