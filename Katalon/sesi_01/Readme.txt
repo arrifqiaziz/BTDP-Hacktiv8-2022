@@ -12,7 +12,6 @@ sebagaimana mestinya, dan tahan akan perubahan kode dimasa depan.
 - Tester: memastikan program bekerja secara fungsional, kebergunaan, kinerja, dan keamanan program.
 - Lead/Manager/Architecs: mengawal ataupun merencanakan strategi dan rencana pengujian.
 
-
 Metode dalam Tester -> Metode Scrum -> sebagai metode development sehingga modul akan selesai bisa dalam waktu singkat per-Task atau per-Sprint.
 
 Jenis Testing
@@ -21,9 +20,20 @@ Jenis Testing
 - System Test	: System test adalah pengujian yang dilakukan untuk cakupan yang lebih besar. Pengujian ini dilakukan ketika integration test selesai. System test merupakan pengujian yang dilakukan secara keseluruhan terhadap sebuah software
 - Acceptance Test	:tahap uji terakhir pada functional testing level kemudian mempersiapkan dokumentasi serta alur test yang akan dieksekusi menyesuaikan dengan user story dan alur bisnis
 
-
 Teknik Testing
 - Manual Testing
   Manual test, analisa
 - Automation Testing
   Cypress, Appium, Selenium, Katalon
+
+
+
+##### Signature
+Made with Heart, Hard Work, Smart Think and Whole Soul <3
+
+Name  : Arrifqi Aziz Ardhiansyah\
+Participant Code Java Springboot  : JVSB001ONL009\
+Participant Code Katalon : KSAT006ONL009
+
+
+[LinkedIn](https://www.linkedin.com/in/arrifqiaziz/) | [GitHub](https://github.com/arrifqiaziz)

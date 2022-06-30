@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify login when entering invalid userid and invalid password
+Username : John
+Password : ThisIsNotA</description>
+   <name>LOGIN_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a3eefca-0297-4c7e-8301-635eed4c0b44</testCaseGuid>
+</TestCaseEntity>

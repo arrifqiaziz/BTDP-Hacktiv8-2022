@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Login 02 - Login Failed
+Username : John
+Password : ThisIsNotAPassword</description>
+   <name>Login_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63a9289a-b44c-44c4-9006-d6f81e1f3e7c</testCaseGuid>
+</TestCaseEntity>

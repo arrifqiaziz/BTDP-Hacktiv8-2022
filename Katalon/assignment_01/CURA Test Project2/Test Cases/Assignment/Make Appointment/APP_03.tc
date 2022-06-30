@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Make an Appointment with Comment not filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and don’t type anything	
+6. Click Submit</description>
+   <name>APP_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6125fb3-01f1-424d-881f-fa1e0f7e3b96</testCaseGuid>
+</TestCaseEntity>

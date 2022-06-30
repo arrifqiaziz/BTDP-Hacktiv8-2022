@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Google Calculator</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91037306-7355-4db0-bd4a-ae93b3417a69</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5dbff335-5d73-4154-94d6-cc5b2e82c2de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5dbff335-5d73-4154-94d6-cc5b2e82c2de</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check if the appointment is booked successfully
+1. Click Menu on Top Right Page	
+1. Click History</description>
+   <name>CHECK_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83941cfd-22d6-466b-aefd-a3b4687e1fec</testCaseGuid>
+</TestCaseEntity>
