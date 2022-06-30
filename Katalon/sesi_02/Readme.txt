@@ -5,6 +5,9 @@ https://katalon.com/download/#free
 
 Katalon Studio adalah sebuah Automated Software Testing yang powerfull karena dapat melakukan testing pada Web App, API, Mobile App, dan Desktop
 
+Dokumentasi Katalon
+https://docs.katalon.com/
+
 Katalon Workflow
 - Initiate	-> terdapat banyak pilihan template untuk testing atau blak, juga dapat dengan mudah integrasi dengan Jenkins, GIT, dan JIRA
 - Create	-> Membuat record, test case, automation test case
