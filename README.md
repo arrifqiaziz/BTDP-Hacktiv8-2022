@@ -34,7 +34,7 @@ This repository is a documentation of every session in the BTDP-Batch 1 2022. Th
 [Session 23](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Java-Springboot/sesi_23) - Final Project
 
 
-## Backend Engineer using Java Springboot
+## Quality Assurance using Katalon
 [Session_01](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_01) - Introduction of Software Testing\
 [Session_02](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_02) - Introduction to Katalon Studio\
 [Session_03](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_03) - Exploration of Katalon Studio Main Features\
