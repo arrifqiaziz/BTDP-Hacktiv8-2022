@@ -33,6 +33,21 @@ This repository is a documentation of every session in the BTDP-Batch 1 2022. Th
 [Session 22](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Java-Springboot/sesi_22) - Code Coverage and Deployment | Jacoco and Sonarqube\
 [Session 23](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Java-Springboot/sesi_23) - Final Project
 
+
+## Backend Engineer using Java Springboot
+[Session_01](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_01) - Introduction of Software Testing
+[Session_02](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_02) - Introduction to Katalon Studio
+[Session_03](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_03) - Exploration of Katalon Studio Main Features
+[Session_04](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_04) - Data Driven Test (DDT)
+[Session_05](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_05) - Keyword Driven Automation and Custom Keywords
+[Session_06](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_06) - Result and Reporting
+[Session_07](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_07) - Jenkins and Commandline Execution
+[Session_08](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_08) - Integration with GIT and JIRA
+[Session_09](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_09) - API Testing
+[Session_10](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_10) - Mobile Testing
+[Session_11](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_11) - Final Project 1
+[Session_12](https://github.com/arrifqiaziz/BTDP-Hacktiv8-2022/tree/main/Katalon/sesi_12) - Final Project 2
+
 ##### Signature
 Made with Heart, Hard Work, Smart Think and Whole Soul <3
 
