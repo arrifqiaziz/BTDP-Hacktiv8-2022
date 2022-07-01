@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test All,Chrome 103.0.5060.66,,,2022-07-01 14:54:45,2022-07-01 14:57:23,2m - 37.295s,PASSED
+,,,,,,,
+Test Cases/Assignment/Check Appointment/CHECK_01,Chrome 103.0.5060.66,"Check if the appointment is booked successfully
+1. Click Menu on Top Right Page	
+1. Click History",,2022-07-01 14:54:46,2022-07-01 14:55:04,18.379s,PASSED
+,,,,,,,
+Test Cases/Assignment/Check Appointment/CHECK_02,Chrome 103.0.5060.66,"Check if the appointment is booked successfully but not yet book
+1. Click Menu on Top Right Page	
+2. Click History",,2022-07-01 14:55:04,2022-07-01 14:55:19,14.512s,PASSED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_01,Chrome 103.0.5060.66,"Verify login when entering valid username and valid password
+Username : John Doe
+Password : ThisIsNotAPassword",,2022-07-01 14:55:19,2022-07-01 14:55:27,8.678s,PASSED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_02,Chrome 103.0.5060.66,"Verify login when entering invalid username and valid password
+Username : John
+Password : ThisIsNotAPassword",,2022-07-01 14:55:27,2022-07-01 14:55:37,9.691s,PASSED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_03,Chrome 103.0.5060.66,"Verify login when entering valid userid and invalid password
+Username :  John Doe
+Password : ThisIsNotA",,2022-07-01 14:55:37,2022-07-01 14:55:48,10.618s,PASSED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_04,Chrome 103.0.5060.66,"Verify login when entering invalid userid and invalid password
+Username : John
+Password : ThisIsNotA",,2022-07-01 14:55:48,2022-07-01 14:55:57,9.562s,PASSED
+,,,,,,,
+Test Cases/Assignment/Login/LOGIN_05,Chrome 103.0.5060.66,"Verify login when entering nothing (blank)
+Username : 
+Password :",,2022-07-01 14:55:57,2022-07-01 14:56:06,8.741s,PASSED
+,,,,,,,
+Test Cases/Assignment/Logout/LOGOUT,Chrome 103.0.5060.66,,,2022-07-01 14:56:06,2022-07-01 14:56:24,17.733s,PASSED
+,,,,,,,
+Test Cases/Assignment/Make Appointment/APP_01,Chrome 103.0.5060.66,"Make an Appointment with full field filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and type Make Appointment	
+6. Click Submit",,2022-07-01 14:56:24,2022-07-01 14:56:38,13.903s,PASSED
+,,,,,,,
+Test Cases/Assignment/Make Appointment/APP_02,Chrome 103.0.5060.66,"Make an Appointment Visit Date not filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and type Make Appointment	
+6. Click Submit",,2022-07-01 14:56:38,2022-07-01 14:56:52,14.163s,PASSED
+,,,,,,,
+Test Cases/Assignment/Make Appointment/APP_03,Chrome 103.0.5060.66,"Make an Appointment with Comment not filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and don’t type anything	
+6. Click Submit",,2022-07-01 14:56:52,2022-07-01 14:57:07,14.741s,PASSED
+,,,,,,,
+Test Cases/Assignment/Make Appointment/APP_04,Chrome 103.0.5060.66,"Make an Appointment with full field filled
+1. Click Facility and choose Hongkong CURA Healthcare Program	
+2. Click Check on Apply for hospital readmission	
+3. Click Healthcare program and choose Medicalid	
+4. Click Visit Date and type 20/08/2022	
+5. Click Comment and type Make Appointment	
+6. Click Submit",,2022-07-01 14:57:07,2022-07-01 14:57:21,14.655s,PASSED
