@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC PUT Photos by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca2a5c0c-2ad4-4caf-bb13-1e945182a8ba</testCaseGuid>
+</TestCaseEntity>

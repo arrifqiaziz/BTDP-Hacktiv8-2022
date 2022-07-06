@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC GET Users by Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c998342b-5c3e-45c4-a3ea-754191706646</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC GET Comments by Post ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1713add1-3658-477f-8c40-aa605c759df2</testCaseGuid>
+</TestCaseEntity>

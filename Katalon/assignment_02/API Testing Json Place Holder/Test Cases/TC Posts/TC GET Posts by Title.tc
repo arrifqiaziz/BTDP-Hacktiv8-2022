@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC GET Posts by Title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9448c4af-b825-4011-bc2f-fe3fa0e95b44</testCaseGuid>
+</TestCaseEntity>

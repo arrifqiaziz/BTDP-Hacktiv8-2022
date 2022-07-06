@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC GET Albums by Title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb3a85ae-e385-4a89-a642-992d778371b2</testCaseGuid>
+</TestCaseEntity>
