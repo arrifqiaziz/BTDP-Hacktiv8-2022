@@ -1,5 +1,9 @@
 Sesi 11 - Final Project 1
 
+Token Jira Katalon
+
+fQgXVX5htvi8RFojcm6b47D1
+
 
 ##### Signature
 Made with Heart, Hard Work, Smart Think and Whole Soul <3
